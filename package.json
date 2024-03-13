@@ -18,10 +18,13 @@
     "clsx": "^2.0.0",
     "lucide-react": "^0.294.0",
     "next": "14.0.3",
+    "p5": "^1.9.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-p5": "^1.4.1",
     "tailwind-merge": "^2.0.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vercel": "^33.5.5"
   },
   "devDependencies": {
     "@types/node": "^20",

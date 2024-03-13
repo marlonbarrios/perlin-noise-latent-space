@@ -8,11 +8,11 @@ fal.config({
   proxyUrl: "/api/fal/proxy",
 });
 
- const seed = 110602490;
-// const seed = Math.floor(Math.random() * 100000);
+//const seed = 110602490;
+const seed = Math.floor(Math.random() * 100000);
 
 export default function Home() {
-  const [input, setInput] = useState('3D, black background, dramatic light, impossible organic architectures of water, oil and light and strange colors');
+  const [input, setInput] = useState('3D, black background, dramatic light, impossible organic growth tendrils glowing diatom architectures of water, oil, smoke and internal light and strange colors no gravity');
   // const [input, setInput] = useState('3D, balck background, dramatic light, complex system, liquid light, hight dimensional spaces, non euclidian, meta abstraction,  blackhole,  internal sun neuron, morphing black and white, networks');
   const [strength, setStrength] = useState(0.75);
   const [image, setImage] = useState(null);
@@ -46,16 +46,20 @@ export default function Home() {
     if (isClient) {
       const interval = setInterval(() => {
         captureAndSendImage();
-      }, 100); // Automatically capture and send image every 5 seconds
+      }, 10); // Automatically capture and send image every 5 seconds
 
       return () => clearInterval(interval);
     }
   }, [isClient, captureAndSendImage]); // useEffect's dependencies, including captureAndSendImage
 
   return (
-    <main className="p-12">
-      <p className="text-xl mb-2">Perlin Noise in Latent Space</p>
+  
+    <main className="p-12" >
+      <p className="text-xl mb-2">Hyper-element in Latent Space</p>
+      <div className="mb-4">
       <p className="text-xl mb-2">Generative P5 Sketch + Fal SDXL Turbo | concept and programming by Marlon Barrios Solano</p>
+      </div>
+     
       {/* <input
         className='border rounded-lg p-2 w-full mb-2'
         value={input}
@@ -87,8 +91,11 @@ export default function Home() {
             height={600}
             alt='Generated Image'
           />
+          
         )}
       </div>
+     
+      
     </main>
   );
 }
