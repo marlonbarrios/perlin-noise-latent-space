@@ -1,7 +1,14 @@
 # Hyper-elements in Latent Space
 
 
+
+https://github.com/marlonbarrios/perlin-noise-latent-space/assets/90220317/fe0c12ee-61bf-4075-90ee-4b191377c4ef
+
+
+
 "Hyper-elements in Latent Space" is an innovative exploration into the realm of double generativity, where generative code and creative coding intertwine with the transformative capabilities of generative AI. By harnessing the nuanced dynamics of Perlin noise and real-time image generation through AI, this project presents a unique synthesis of naturalistic motion and AI-driven artistic enhancement, creating a continuously evolving digital canvas.
+
+![Screenshot 2024-03-13 at 10 16 18 AM](https://github.com/marlonbarrios/perlin-noise-latent-space/assets/90220317/925c2479-0d41-4df9-8cad-162ff732eaaa)
 
 ## Overview
 
